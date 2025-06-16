@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.timeline {
+  margin: 20px 0;
+}
+
+@import url('modal.css');
+@import url('posts.css');
+@import url('creator.css');

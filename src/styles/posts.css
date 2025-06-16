@@ -1,0 +1,55 @@
+.post {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.post-content {
+  margin: 10px 0;
+}
+
+.post-content p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.post-coordinates {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 10px;
+}
+
+.media-player {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.media-player audio,
+.media-player video {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.media-player .play-btn {
+  background: #2196F3;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.media-player .play-btn:hover {
+  background: #0b7dda;
+}
